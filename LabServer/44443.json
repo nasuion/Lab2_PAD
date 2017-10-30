@@ -1,0 +1,14 @@
+[
+	{	 
+		"FullName":"Alcatel", 
+		"Model":"A2",
+		"Price": 3000,
+	    "Guarantee":"12 Months"
+    },
+    {	       
+		"FullName":"Lenovo", 
+		"Model":"K80M",
+		"Price": 3000,
+	    "Guarantee":"12 Months"
+    }
+]

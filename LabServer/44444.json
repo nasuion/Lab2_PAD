@@ -1,0 +1,14 @@
+[
+	{	       
+		"FullName":"Doogee", 
+		"Model":"X5",
+		"Price": 4500,
+	    "Guarantee":"12 Months"
+    },
+    {	       
+		"FullName":"HTC", 
+		"Model":"One",
+		"Price": 5000,
+	    "Guarantee":"12 Months"
+    }
+]
