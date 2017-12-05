@@ -8,26 +8,24 @@ using System.Xml;
 using System.Xml.Serialization;
 
 namespace PAD
-{
-  [XmlRoot(ElementName = "Product")]
+{   //[XmlRoot(ElementName="bookstore xmlns=\"http://www.contoso.com/books\"")]
+    [XmlRoot(ElementName = "book")]
     public class Product
     {
-      [XmlElement(ElementName = "FullName")]
-      public String FullName { get; set; }
-      [XmlElement(ElementName = "Model")]
-      public String Model {get; set;}
-      [XmlElement(ElementName = "Price")]
+      [XmlElement(ElementName = "title")]
+        public String title { get; set; }
+      [XmlElement(ElementName = "author")]
+      public String author { get; set; }
+      [XmlElement(ElementName = "price")]
       public Double Price { get; set; }
 
-      [XmlElement(ElementName = "Guarantee")]
-      public String Guarantee { get; set; }
 
-      public Product(String fullName, String model, Double price, String guarantee)
+      public Product(String title, String author, Double price)
       {
-          this.FullName = fullName;
-          this.Model = model;
+          this.title = title;
+          this.author = author;
           this.Price = price;
-          this.Guarantee = guarantee;
+        
       }
       public Product()
       {
@@ -36,12 +34,10 @@ namespace PAD
 
       public override string ToString()
       {
-          return "Product{" +
-                    "fullName='" + FullName + '\'' +
-                    ", model='" + Model + '\'' +
+          return "book{" +
+                    "title='" + title + '\'' +
+                    ", author='" + author + '\'' +
                     ", price=" + Price +
-                    ", guarantee='" + Guarantee +"'"+
-              
               '}';
       }
       public static string Deserialize<T>(T value)
@@ -59,11 +55,9 @@ namespace PAD
           StreamReader sr = new StreamReader(stream);
           message = sr.ReadToEnd();
           Console.WriteLine(">> XML : " + message);
-          if (xmlserializer.CanDeserialize(new XmlTextReader(new StringReader(message))))
-              Console.WriteLine(">> XMLSchema: This product is valid");
-          else Console.WriteLine(">> XMLSchema: This products is invalid");
+         
+         
           return message;
-
       }
 }
   public class Products

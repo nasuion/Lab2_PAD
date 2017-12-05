@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Xml;
 
 namespace PAD
 {
@@ -38,15 +39,22 @@ namespace PAD
 
                 Console.WriteLine(">> Starting to validate XML");
                 string xmlMessage = "";
+
+                
                 product.ForEach(x =>
                 {
                     xmlMessage = Product.Deserialize(x);
+                    //System.IO.File.WriteAllText(@"C:\Users\nasui\Documents\Visual Studio 2013\Projects\Lab2_PAD\XMLValidator\bin\Debug\test.xml", message);
+             
                 });
+                
                 Console.WriteLine("\n>> Order list by Price");
 
                 product = product.OrderBy(x => x.Price).ToList();
-                product.ForEach(x => Console.WriteLine("-"+x));
+                product.ForEach(x => Console.WriteLine(">> "+x));
             });
+           // XmlWriter xmlWriter = XmlWriter.Create("test.xml");
+           
             t.Wait();
             Console.ReadKey();
         }

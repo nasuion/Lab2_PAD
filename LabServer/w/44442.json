@@ -1,0 +1,14 @@
+[
+	{	       
+		"FullName":"Elephone", 
+		"Model":"R9",
+		"Price": 4000,
+	    "Guarantee":"12 Months"
+    },
+    {	       
+		"FullName":"LeMax2", 
+		"Model":"LEco",
+		"Price": 4010,
+	    "Guarantee":"12 Months"
+    }
+]

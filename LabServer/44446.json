@@ -1,8 +1,7 @@
 [
 	{	       
-		"FullName":"Samsung", 
-		"Model":"J5",
-		"Price": 7000,
-	    "Guarantee":"36 Months"
+		"title":"Cromwell", 
+		"author":"STENDHAL",
+		"price": 800,
     }
 ]

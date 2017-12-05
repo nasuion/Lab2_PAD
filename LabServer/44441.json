@@ -1,14 +1,13 @@
 [
 	{	       
-		"FullName":"Lenovo", 
-		"Model":"X3 Lite",
-		"Price": 3000,
-	    "Guarantee":"12 Months"
+		"title":"The Autobiography of Benjamin Franklin", 
+		"author":"Benjamin Franklin",
+		"price": 300,
+	    
     },
     {	       
-		"FullName":"Xiomi", 
-		"Model":"X4",
-		"Price": 4000,
-	    "Guarantee":"24 Months"
+		"title":"Aladin", 
+		"author":"Madam",
+		"price": 50,
     }
 ]

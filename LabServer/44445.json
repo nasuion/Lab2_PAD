@@ -1,8 +1,7 @@
 [
 	{	       
-		"FullName":"Samsung", 
-		"Model":"S8+",
-		"Price": 12000,
-	    "Guarantee":"36 Months"
+		"title":"Imagini frumoase", 
+		"author":"JEAN-PAUL SARTRE",
+		"price": 3000,
     }
 ]

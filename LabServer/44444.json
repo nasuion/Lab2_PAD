@@ -1,14 +1,12 @@
 [
 	{	       
-		"FullName":"Doogee", 
-		"Model":"X5",
-		"Price": 4500,
-	    "Guarantee":"12 Months"
+		"title":"Ciuma", 
+		"author":"SIMONE DE BEAUVOIR",
+		"price": 3000,
     },
     {	       
-		"FullName":"HTC", 
-		"Model":"One",
-		"Price": 5000,
-	    "Guarantee":"12 Months"
+		"title":"Strainul", 
+		"author":"SIMONE DE BEAUVOIR",
+		"price": 3000,
     }
 ]

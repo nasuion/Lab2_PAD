@@ -1,0 +1,14 @@
+[
+	{	       
+		"FullName":"Lenovo", 
+		"Model":"X3 Lite",
+		"Price": 3000,
+	    "Guarantee":"12 Months"
+    },
+    {	       
+		"FullName":"Xiomi", 
+		"Model":"X4",
+		"Price": 4000,
+	    "Guarantee":"24 Months"
+    }
+]

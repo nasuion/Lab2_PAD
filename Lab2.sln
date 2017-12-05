@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PAD", "PAD\PAD.csproj", "{C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discovery", "Discovery\Discovery.csproj", "{78720220-C837-4BD0-8B95-8CD8C834A2DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMLValidator", "XMLValidator\XMLValidator.csproj", "{F4989BAF-A205-4C68-91D8-F4A1229AA57D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{78720220-C837-4BD0-8B95-8CD8C834A2DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78720220-C837-4BD0-8B95-8CD8C834A2DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78720220-C837-4BD0-8B95-8CD8C834A2DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4989BAF-A205-4C68-91D8-F4A1229AA57D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4989BAF-A205-4C68-91D8-F4A1229AA57D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4989BAF-A205-4C68-91D8-F4A1229AA57D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4989BAF-A205-4C68-91D8-F4A1229AA57D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

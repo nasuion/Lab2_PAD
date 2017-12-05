@@ -1,14 +1,12 @@
 [
 	{	 
-		"FullName":"Alcatel", 
-		"Model":"A2",
-		"Price": 3000,
-	    "Guarantee":"12 Months"
+		"title":"Avarul", 
+		"author":"Albert Camus",
+		"price": 100,
     },
     {	       
-		"FullName":"Lenovo", 
-		"Model":"K80M",
-		"Price": 3000,
-	    "Guarantee":"12 Months"
+		"title":"Don Juan", 
+		"author":"Albert Camus",
+		"price": 300,
     }
 ]

@@ -1,5 +1,6 @@
 SET SERVER=LabServer\bin\Debug\LabServer.exe
 SET CLIENT=PAD\bin\Debug\PAD.exe
+SET VALIDATOR=XMLValidator\bin\Debug\XMLValidator.exe
 
 
 echo "Starting server ..."
@@ -12,4 +13,5 @@ start %SERVER% 44446 3 44443 44444 44445
 
 
 start %CLIENT%
+start %VALIDATOR%
 pause
